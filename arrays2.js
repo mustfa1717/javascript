@@ -1,7 +1,7 @@
 const marvel =["s","d","w"]
 const dc = ["q","r","p"]
-//marvel.push(dc)
-//console.log(marvel);
+marvel.push(dc)
+console.log(marvel);
 // so kya hota ha ki when we push an array into another array it does not completes a complete merge 
 // IN THAT  CASE WE USE CONCAT
 const all=marvel.concat(dc)
@@ -17,7 +17,7 @@ console.log(all);
  
 
  //there are some more properties like is ,from ,of 
-console.log(Array.isArray());
+console.log(Array.isArray(["papa"]));
 //what from will do is it will create an array from the given data
 console.log(Array.from("mustafa17"));
 
