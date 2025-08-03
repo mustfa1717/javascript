@@ -61,3 +61,4 @@ const result=function (num){
     return num*3
 }
 console.log(result(5));
+//aur kya haal bhai
